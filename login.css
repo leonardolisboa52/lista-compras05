@@ -24,14 +24,14 @@
 }
 
 body {
-    font-family: var(--fonte);
-background: #6c4ca1;
-background: linear-gradient(90deg,rgba(108, 76, 161, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(101, 201, 128, 1) 55%, rgba(102, 98, 84, 1) 100%);;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     min-height: 100vh;
-     padding: 20px;
+  font-family: var(--fonte);
+  background: #6c4ca1;
+  background: linear-gradient(90deg,rgba(108, 76, 161, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(101, 201, 128, 1) 55%, rgba(102, 98, 84, 1) 100%);;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
 }
 
 .container {
