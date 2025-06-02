@@ -1,0 +1,52 @@
+/*FONTE*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Variaveis Globais*/
+:root {
+    --cor-primaria: ;
+    --cor-primaria-escura: ;
+    --cor-bg: ;
+    --cor-branco: ;
+    --cor-borda: ;
+    --cor-sombra: rgba();
+    --cor-texto: ;
+
+    --fonte: 'Roboto', sans-serif;
+
+    --raio: 0.8rem;
+    --transition: 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte);
+background: #6c4ca1;
+background: linear-gradient(90deg,rgba(108, 76, 161, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(101, 201, 128, 1) 55%, rgba(102, 98, 84, 1) 100%);;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     padding: 20px;
+}
+
+.container {
+    background: var(--cor-bg);
+    padding: clamp(2rem, 5vw, 3rem);
+    border-radius: var(--raio);
+    box-shadow: 0 8px 24px var(--cor-sombra);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.tiulo {
+    font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+    color: var(--cor-texto);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
