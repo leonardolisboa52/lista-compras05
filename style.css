@@ -3,11 +3,11 @@
 
 /* ---------- Variáveis globais ---------- */
 :root {
-    --cor-primaria: #1175cc;
-    --cor-primaria-escura: #3a6180;
-    --cor-bg: #f5f7fa;
-    --cor-branco: #ffffff;
-    --cor-borda: #ddd;
+    --cor-primaria:#8C2B2B;
+    --cor-primaria-escura:#733232;
+    --cor-bg: #A67772;
+    --cor-branco: #F2EEEB;
+    --cor-borda: #D9B3B0;
     --cor-sombra: rgba(0, 0, 0, 0.15);
     --cor-texto: #333;
 
